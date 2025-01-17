@@ -1,0 +1,4 @@
+valor_bau: 100000
+prefix: '&f[&bLegendary&3Community&f] '
+hopper:
+  max-stacks: 5

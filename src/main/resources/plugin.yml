@@ -1,0 +1,18 @@
+name: legendary_link_chest
+version: '1.0.0'
+main: www.legendarycommunity.com.br.legendary_link_chest.Legendary_link_chest
+api-version: '1.21'
+authors: [ Thaynison ]
+description: Plugin Legendary Community
+website: http://www.legendarycommunity.com.br
+depend: [Vault]
+commands:
+  linkarbau:
+    description: Vincula dois baús para transferir itens.
+    usage: /linkarbau <bau1|bau2> <nome_do_link>
+  linkarfiltro:
+    description: Adicionar Filtro aos baus.
+    usage: /linkarfiltro <nome_do_link> <item_do_minecraft>
+  removerfiltros:
+    description: Remover Filtro dos baus.
+    usage: /removerfiltros <nome_do_link> <item_do_minecraft>
